@@ -57,3 +57,46 @@ ul li{
 .banner-img img{
     width: 300px;
 }
+
+
+
+
+/* cards sections */
+.card-section{
+    height: 500px;
+    background-color: rgb(30 30 30);
+    background-image: url("images/background.png");
+}
+.card-header-text{
+    color: whitesmoke;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 200px;
+    color: white;
+    box-shadow: 0px 0px 150px 0px rgb(124, 124, 124);
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.card img{
+    width: 80px;
+}
+.card-btn{
+    width: 70px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: rgb(77, 77, 77);
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    cursor:pointer;
+    color: white;
+
+}
