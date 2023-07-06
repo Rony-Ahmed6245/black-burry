@@ -87,6 +87,16 @@ ul li{
     font-size: 25px;
     margin-bottom: 10px;
 }
+.about-btn{
+    color: white;
+    background-color: red;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+}
 
 
 
