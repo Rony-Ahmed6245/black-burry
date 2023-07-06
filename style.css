@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+
+/*=======================================================
+                  nav section 
+=========================================================*/
 nav{
     background-color: #424141;
     display: flex;
@@ -25,7 +29,9 @@ ul li{
     text-transform: capitalize;
 }
 
-/* banner section  */
+/*======================================================
+                 banner section 
+========================================================  */
 .banner{
     display: flex;
     justify-content: space-around;
@@ -60,16 +66,44 @@ ul li{
 
 
 
+/* about section */
+.abouts{
+    margin: 10px 0 20px 0;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-tittle{
+    text-align: center;
+    font-size: 60px;
+    text-transform: capitalize;
+}
+.about-img img{
+    width: 300px;
+}
+.about-content h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
 
-/* cards sections */
+
+
+
+/* =======================================================
+                      cards sections 
+ ========================================================= */
 .card-section{
     height: 500px;
     background-color: rgb(30 30 30);
     background-image: url("images/background.png");
+    margin-top: 20px;
 }
 .card-header-text{
     color: whitesmoke;
     text-align: center;
+    font-size: 50px;
 }
 .cards{
     display: flex;
