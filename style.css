@@ -1,3 +1,6 @@
+
+/* univarsal css code  */
+
 *{
     margin: 0;
     padding: 0;
@@ -145,7 +148,11 @@ ul li{
 
 }
 
-/* footer section  */
+
+
+/* ======================================================
+                   footer section  
+========================================================*/
 footer{
     background-color: #424141;
     color: aliceblue;
